@@ -60,7 +60,7 @@ global.packname = sticker_name
 global.author = sticker_author
 global.wm = '© Sabo'
 
-global.multiplier = 1000 // The higher, The harder levelup
+global.multiplier = 20 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
