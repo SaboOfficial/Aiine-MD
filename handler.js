@@ -921,15 +921,15 @@ conn.ws.on('CB:call', async (json) => {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-        mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*Premium*\n1 Months *IDR 10000*\n1 Years *IDR 90000*\n\nHubungi *owner* kami..', 
-        banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
-        group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: 'Perintah ini hanya untuk *Admin* grup!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
+        rowner: '*Perintah Ini Hanya Bisa Digunakan Oleh Owner*',
+        owner: '*Perintah Ini Hanya Bisa Digunakan Oleh Owner Bot*',
+        mods: '*Perintah Ini Hanya Bisa Digunakan Oleh Moderator*',
+        premium: '*Perintah Ini Hanya Bisa Digunakan Oleh User Prem*', 
+        banned: '*Maaf... Kamu Telah Di Ban*',
+        group: '*Perintah Ini Hanya Bisa Digunakan Di Dalam Group*',
+        private: '*Perintah Ini Hanya Bisa Digunakan Di Private Message*',
+        admin: '*Perintah Ini Hanya Bisa Digunakan Oleh Admin Grup*',
+        botAdmin: '*Jadikan Bot Sebagai Admin Terlebih Dahulu*',
         unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
         restrict: 'Fitur ini di *disable*!'
     }[type]
